@@ -1,0 +1,237 @@
+.landing-page-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    z-index: 0;
+
+}
+
+
+.content {
+
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.upper-cont {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.lower-cont {
+    /* border: 2px solid white; */
+}
+
+.left-cont {
+
+
+    width: fit-content;
+
+    border: 2px solid white;
+}
+
+.right-cont {
+    width: fit-content;
+    font-size: xx-large;
+
+
+}
+
+.quality1 {
+    font-size: large;
+}
+
+.quality-type {
+    background-color: rgb(3, 1, 22);
+    border: none;
+}
+.goner{
+font-size: large;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+}
+
+.per-cast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fade1 {
+    opacity: 70%;
+}
+
+
+.slideshow {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slide-container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.slider-per0img {
+    border: 2px solid white;
+}
+
+.opacity {
+    opacity: 80%;
+}
+
+.slide-container::-webkit-scrollbar {
+    width: 20px;
+}
+
+.slide-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.slide-container::-webkit-scrollbar-thumb {
+    background-color: #fc2d2d;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.slide-container::-webkit-scrollbar-thumb:hover {
+    background-color: #3f2679;
+}
+
+
+
+.landing-page-cont {
+
+    background: linear-gradient(-45deg, #053517, #140101, #1b062c, #0a4752);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: fit-content;
+}
+
+.third-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para {
+    padding: 2rem;
+    border: 2px solid rgb(45, 40, 40);
+    width: 60vw;
+}
+
+.cast-pic {
+    border-radius: 50%;
+}
+
+.suggestions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.dowbload-cont {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    left:26%;
+    top: 20%;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .landing-page-cont {
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+
+    .upper-cont {
+        flex-direction: column;
+    }
+
+    .third-container {
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .left-cont img {
+        height: 45vh;
+        width: 70vw;
+        margin: 0;
+    }
+
+    .right-cont {
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+}

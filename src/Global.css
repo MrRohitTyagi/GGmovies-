@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+.App {
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(3, 3, 27);
+    /* background: url(./media/background.jpg) no-repeat center center fixed; */
+    /* background: url(./media/background1.webp) no-repeat center center fixed; */
+    background: url(./media/my.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.baclground-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hang{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    border-radius: 20%;
+    border: 2px solid white;
+    background-color: rgb(2, 2, 27);
+    padding: 1rem;
+}
+.td{
+    text-decoration: none;
+}
+.textInputWrapper{
+    transform: scale(2.5);
+}
+
+@media screen and (max-width:400px) {
+    .App{
+        background-color: rgb(3, 3, 27);
+        background-size: cover;
+    }
+    .fhbsjkadhg{
+        display: none;
+    }
+    .textInputWrapper{
+        transform: scale(1.1);
+    }
+}

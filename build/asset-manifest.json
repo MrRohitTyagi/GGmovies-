@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b36e304.css",
+    "main.js": "/static/js/main.0e9f34bc.js",
+    "static/media/my1.png": "/static/media/my1.78b3aab72c7dede38447.png",
+    "static/media/movirimage.png": "/static/media/movirimage.adae46b399d85b3ec4de.png",
+    "static/media/imdb-logo-transparent.png": "/static/media/imdb-logo-transparent.c523e283dbd9f1f33a32.png",
+    "static/media/my.jpg": "/static/media/my.c72ff12d58399a1f13d8.jpg",
+    "static/media/computer.png": "/static/media/computer.28d2543e10d62a0cfc0c.png",
+    "static/media/netflix-logo-png-2562.png": "/static/media/netflix-logo-png-2562.b39480d09d45609d9d6f.png",
+    "static/media/star.ico": "/static/media/star.d5e3f42668590ed936b0.ico",
+    "static/media/Ajax-Loading.svg": "/static/media/Ajax-Loading.c594ff9edc564515ec88651a5970355e.svg",
+    "index.html": "/index.html",
+    "main.2b36e304.css.map": "/static/css/main.2b36e304.css.map",
+    "main.0e9f34bc.js.map": "/static/js/main.0e9f34bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b36e304.css",
+    "static/js/main.0e9f34bc.js"
+  ]
+}

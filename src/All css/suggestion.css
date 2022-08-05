@@ -1,0 +1,23 @@
+.suggestion-box{
+    position: relative;
+    background-color: rgb(3, 3, 27);
+    height: 250px;
+    width: 200px;
+    border: 2px solid purple;
+    
+}
+.suggestion-img{
+    height: 200px;
+    width: 195.5px;
+}
+.suggestion-box:hover{
+    border: 2px solid red;
+}
+.float-ing-logo-imdb{
+    position: absolute;
+    bottom: 40px;
+}
+.no-styles{
+    text-decoration: none;
+    color: wheat;
+}
